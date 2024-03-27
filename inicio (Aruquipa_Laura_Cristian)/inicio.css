@@ -1,0 +1,223 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(0deg, rgb(151, 144, 241),rgba(0, 191, 255, 0.699),rgba(255, 255, 255, 0.425),rgba(0, 191, 255, 0.699),rgb(192, 194, 250));
+    background-attachment: fixed;
+}
+#menudenavegacion{
+    background-image: linear-gradient(0deg, rgb(7, 3, 62),rgb(81, 87, 254),rgba(53, 39, 240, 0.901),rgb(7, 3, 62));
+    width: 100%;
+    height: 110px;
+list-style: none;
+display:flex;
+justify-content: end;
+align-items: center;
+position: relative;
+box-shadow:  0 0 30px rgb(255, 255, 255);
+border-bottom: solid 1px white;
+}
+nav{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5px;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+nav>li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,rgb(255, 251, 255),rgb(0, 81, 255));
+    border-radius:7px ;
+    text-align: center;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 13, 20);
+}
+a:hover{
+    transition: 0.5s;
+    font-size: 1.7em;/*este es cambion necesario*/
+    width: 50px;
+    background-image: linear-gradient(45deg, rgb(0, 21, 255),rgb(0, 255, 238));
+    color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.949);
+    box-shadow: 0 0 10px rgb(255, 0, 238);
+}
+#logo{
+    background: url(img/Imagen\ de\ WhatsApp\ 2024-03-18\ a\ las\ 10.20.08_ac8e1e84.jpg),rgb(18, 171, 217);
+    position: absolute;
+    left: 90px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-size: cover;
+    transition: 0.8s;
+
+}
+#logo:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+#portada{
+    width: 100%;
+    height: 650px;
+    background-image: url(img/Portada\ 3.png);
+    scrollbar-shadow-color: 0 0 4px rgb(105, 161, 161);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: solid 3px white;
+}
+#titulo{
+    height: 200px;
+    width:550px;
+    background-color: rgba(251, 251, 251, 0.632);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+    border-radius:30px 0px 30px 0px ;
+    box-shadow: 0 0 50px white;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0 0 5px rgb(255, 81, 0);
+}
+#descripcion{
+    width: 550px;
+    margin-right: 70px;
+    background: rgba(255, 255, 255, 0.693);
+    border-radius: 0 30px 0 30px;
+    padding: 5px;
+    border: solid 2px white;
+    box-shadow: 0 0 50px white;
+
+}
+p{
+    font-size: 1.5em;
+}
+
+.gallery{
+    left: 10px;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 0 50px rgba(253, 250, 250, 0.866);
+    border: solid 1px black;
+    height: 550px;
+    box-shadow: 0 0 60px rgb(0, 247, 255);
+}
+.item{
+    flex: 1;
+    height: 100%;
+}
+.item:nth-child(1){
+    background-image: url(img/imagen\ 5.png);
+
+}
+.item:nth-child(2){
+    background-image: url(img/cristian.jpg);
+    
+}
+.item:nth-child(3){
+    background-image: url(img/imagen\ 3.png);
+}
+.item:nth-child(4){
+    background-image: url(img/imagen\ 4.png);
+}
+.item:nth-child(5){
+    background-image: url(img/imagen1.png);
+}
+.item{
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+}
+.item:hover{
+flex: 3;
+box-shadow: 0 0 30px white;
+
+}
+.final{
+    background: black;
+    color: white;
+    font-size: 20px;
+    
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #11196d;
+    color: white;
+    
+}
+#nombre{
+    font-size: 1em;
+}
+#copy{
+    font-size: 1em;
+
+}
+
+/*desde aqui comienza el responsivo*/
+@media(max-width: 800px)
+{
+    /*de qui*/
+    #menudenavegacion{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    #logo{
+        position: static;
+        background: url(img/Imagen\ de\ WhatsApp\ 2024-03-18\ a\ las\ 10.20.08_ac8e1e84.jpg),rgb(18, 171, 217);
+        width: 100px;
+        height: 100px;
+        border-radius:50%;
+        background-size: cover;
+        transition: 0.8s;
+        justify-content: center;
+    }
+   nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+   }
+   nav>li{
+    padding: 5px;
+    }
+    nav,li,a{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    /*hasta aqui*/
+    #portada{
+        background-position: left;
+        
+    }
+    
+}

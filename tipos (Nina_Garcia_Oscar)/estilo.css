@@ -1,0 +1,318 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(0deg, rgb(17, 0, 255),rgba(0, 191, 255, 0.699),rgba(255, 255, 255, 0.425),rgba(0, 191, 255, 0.699),rgb(0, 8, 255));
+    background-attachment: fixed;
+}
+#menudenavegacion{
+    background-image: linear-gradient(0deg, rgb(7, 3, 62),rgb(81, 87, 254),rgba(53, 39, 240, 0.901),rgb(7, 3, 62));
+    width: 100%;
+    height: 110px;
+list-style: none;
+display:flex;
+justify-content: end;
+align-items: center;
+position: relative;
+box-shadow:  0 0 30px rgb(255, 255, 255);
+border-bottom: solid 1px white;
+
+
+}
+nav{
+    
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+nav>li{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,rgb(255, 251, 255),rgb(0, 81, 255));
+    border-radius:7px ;
+    text-align: center;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(0, 13, 20);
+}
+a:hover{
+    transition: 0.5s;
+    font-size: 2em;
+    width: 50px;
+    background-image: linear-gradient(45deg, rgb(0, 21, 255),rgb(0, 255, 238));
+    color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.949);
+    box-shadow: 0 0 10px rgb(255, 0, 238);
+}
+#logo{
+    background: url(imagenes/Imagen\ de\ WhatsApp\ 2024-03-18\ a\ las\ 10.20.08_ac8e1e84.jpg),rgb(18, 171, 217);
+    position: absolute;
+    left: 90px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-size: cover;
+    transition: 0.8s;
+
+}
+#logo:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
+
+.tipos{
+    margin-top: 15px;
+    width: 100%;
+    height: 320px;
+    background-color: #2565c5;
+    border: solid 5px rgba(20, 20, 206, 0.966);
+    display: flex;
+}
+#imagen1{
+    background-image: url(imagenes/Captura\ de\ pantalla\ 2024-03-16\ 153411.png);
+    background-size: cover;
+}
+
+#imagen2{
+    background-image: url(imagenes/child-labor-934893_960_720.jpg);
+    background-size: cover;
+}
+#imagen3{
+    background-image: url(imagenes/Captura\ de\ pantalla\ 2024-03-16\ 161630.png);
+    background-size: cover;
+}
+#imagen4{
+    background-image: url(imagenes/Captura\ de\ pantalla\ 2024-03-16\ 162130.png);
+    background-size: cover;
+}
+#imagen5{
+    background-image: url(imagenes/18.jpg);
+    background-size: cover;
+}
+#imagen6{
+    background-image: url(imagenes/Captura\ de\ pantalla\ 2024-03-16\ 163811.png);
+    background-size: cover;
+}
+#imagen7{
+    background-image: url(imagenes/vctima-en-los-negros_255625187_1140x520.jpeg);
+    background-size: cover;
+}
+#imagen8{
+    background-image: url(imagenes/tapa_milena_1.jpg);
+    background-size: cover;
+}
+#imagen9{
+    background-image: url(imagenes/8c5032220c5f84d399e0fe5d885f0d93.jpeg);
+    background-size: cover;
+}
+#imagen10{
+    background-image: url(imagenes/c-5-421366-6381.jpg);
+    background-size: cover;
+}
+#imagen11{
+    background-image: url(imagenes/f_2012-08-08_52.jpg);
+    background-size: cover;
+}
+#imagen12{
+    background-image: url(imagenes/2022120613185081413.png);
+    background-size: cover;
+}
+.imagenes{
+    height: 100%;
+    width: 20%;
+    border: solid 3px black;
+    border-radius: 25%;
+    transition: 0.8s;
+
+}
+.imagenes:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.texto{
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    background-color: #0054d1;
+    transition: 0.8s;
+    
+}
+.texto:hover{
+    box-shadow: 0 0 20px black;
+    transition: 0.5s;
+}
+#txt1{
+    height: 60%;
+    margin-top: 50px;
+    
+}
+#txt2{
+    height: 70%;
+    margin-top: 40px;
+}
+#txt3{
+    height: 60%;
+    margin-top: 50px;
+}
+#txt4{
+    height: 45%;
+    margin-top: 90px;
+}
+#txt5{
+    height: 60%;
+    margin-top: 60px;
+}
+#txt6{
+    height: 45%;
+    margin-top: 90px;
+}
+#txt7{
+    height: 60%;
+    margin-top: 50px;
+}
+#txt8{
+    height: 60%;
+    margin-top: 60px;
+}
+#txt9{
+    height: 45%;
+    margin-top: 80px;
+}
+#txt10{
+    height: 45%;
+    margin-top: 80px;
+}
+#txt11{
+    height: 95%;
+    
+}
+#txt12{
+    height: 75%;
+    margin-top: 50px;
+}
+h2{
+    font-family: desgaste;
+    color: rgba(238, 255, 0, 0.795);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie_de_pagina{
+    width: 100%;
+    height: 100px;
+    background-color: cyan;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0067ff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: #11196d;
+    color: white;
+}
+#copy{
+background-color: #11196d;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+@media (max-width:800px){
+    #menudenavegacion{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        background: none;
+        border: none;
+        box-shadow: none;
+        margin: 0px;
+        padding: 0px;
+       }
+       nav>li{
+        padding: 5px;
+        }
+        nav,li,a{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    
+    #logo{
+            position: static;
+            background: url(imagenes/Imagen\ de\ WhatsApp\ 2024-03-18\ a\ las\ 10.20.08_ac8e1e84.jpg),rgb(18, 171, 217);
+            width: 100px;
+            height: 100px;
+            border-radius:50%;
+            background-size: cover;
+            transition: 0.8s;
+            justify-content: center;
+    }
+    
+    .tipos{
+        margin-top: 15px;
+        width: 100%;
+        height: 500px;
+        background-color: #2565c5;
+        border: solid 5px rgba(20, 20, 206, 0.966);
+        flex-direction: column;
+        
+        
+    }
+    .imagenes{
+
+        height: 100%;
+        width: 50%;
+        border: solid 3px black;
+        border-radius: 25%;
+        transition: 0.8s;
+        margin-left: 25%;
+        
+    }
+    
+    .texto{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin: 5px;
+        background-color: #0054d1;
+        transition: 0.8s;
+        overflow: scroll;
+    }
+    
+   
+    h2{
+        font-family: desgaste;
+        color: rgba(238, 255, 0, 0.795);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #pie_de_pagina{
+        width: 100%;
+        height: 100px;
+        background-color: cyan;
+    }
+    
+}
